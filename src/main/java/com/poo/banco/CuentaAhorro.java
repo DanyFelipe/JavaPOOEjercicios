@@ -80,7 +80,7 @@ public class CuentaAhorro extends Cuenta {
 
     @Override
     public void EstadoCuenta() {
-        System.out.println("==== ESTADO DE LA CUENTA DE AHORRO ====");
+        System.out.println("\n==== ESTADO DE LA CUENTA DE AHORRO ====");
         System.out.println("Número de Cuenta: " + getNumCuenta());
         System.out.println("Nombre: " + getCliente().getNombre());
         System.out.println("Apellido: " + getCliente().getApellido());

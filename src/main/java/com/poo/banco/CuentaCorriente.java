@@ -48,7 +48,7 @@ class CuentaCorriente extends Cuenta {
 
     @Override
     public void EstadoCuenta() {
-        System.out.println("==== ESTADO DE LA CUENTA CORRIENTE ====");
+        System.out.println("\n==== ESTADO DE LA CUENTA CORRIENTE ====");
         System.out.println("Número de Cuenta: " + getNumCuenta());
         System.out.println("Nombre: " + getCliente().getNombre());
         System.out.println("Apellido: " + getCliente().getApellido());

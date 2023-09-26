@@ -11,7 +11,7 @@ public class Main {
 
         while (true) {
 
-            System.out.println("==== MENÚ PRINCIPAL ====");
+            System.out.println("\n==== MENÚ PRINCIPAL ====");
             System.out.println("1. Apertura de Cuenta de Ahorro");
             System.out.println("2. Apertura de Cuenta Corriente");
             System.out.println("3. Realizar Depósito");
@@ -72,13 +72,13 @@ public class Main {
                     System.out.println("\nValor a retirar: ");
                     deposito = scanner.nextInt();
                     
-                    ch.depositar(deposito);
+                    ch.retirar(deposito);
                     break;
                 case 2:
                     System.out.println("\nValor a retirar: ");
                     deposito = scanner.nextInt();
                     
-                    cc.depositar(deposito);
+                    cc.retirar(deposito);
                     break;
                 case 3:
                     bucle = false;
